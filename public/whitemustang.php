@@ -1,4 +1,5 @@
 <?php
+include "item.php";
 $jsonFile = file_get_contents("test.json");
 $jsonDecode = json_decode($jsonFile, true);
 
