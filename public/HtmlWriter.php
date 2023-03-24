@@ -2,24 +2,22 @@
 
 class HtmlWriter
 {
-    public array $jsonDecoded = [];
+    public string $jsonString;
 
     public function __construct($fileName)
     {
-        include $fileName;
-        $jsonFileContents = file_get_contents($fileName);
-        $this->jsonDecoded = json_decode($jsonFileContents, true);
+        $this->jsonString = $fileName;
     }
 
-//    /**
-//     * @return array<array<string>>
-//     */
-//    private function getContent(): array
-//    {
-//        $jsonFile = file_get_contents("test.json");
-//
-//        return json_decode($jsonFile, true);
-//    }
+    /**
+     * @return array<array<string>>
+     */
+    private function getContent(): array
+    {
+        $jsonFileContents = file_get_contents($this->jsonString);
+
+        return json_decode($jsonFileContents, true);
+    }
 
     /**
      * @return array<Item>
@@ -27,7 +25,7 @@ class HtmlWriter
     private function dis(): array
     {
         $arrayOfObj = [];
-        $arrayOfArrays = $this->jsonDecoded;
+        $arrayOfArrays = $this->getContent();
         foreach ($arrayOfArrays as $tag => $itemArray) {
             $element = new Item();
             $element
