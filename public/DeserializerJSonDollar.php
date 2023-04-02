@@ -9,19 +9,9 @@ class DeserializerJSonDollar implements DesInterface
         $jsonDecoded = json_decode($dataContents, true);
         return $jsonDecoded;
     }
-    public function des(string $getContent): string
+    public function des(string $getContent, string $valute): string
     {
         $jsonDecoded = $this->getContent($getContent);
-        $resultArray = [];
-        foreach ($jsonDecoded as $key => $value) {
-            if ($key == "Valute") {
-                foreach ($key as $key1 => $value1) {
-                    if ($key1 == "AUD") {
-                        $resultArray .= $value1;
-                    }
-                }
-            }
-        }
-        return $resultArray;
+        return $jsonDecoded['Valute'][$valute]["Value"];
     }
 }

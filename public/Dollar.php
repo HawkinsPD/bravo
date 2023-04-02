@@ -4,10 +4,12 @@ class Dollar
 {
     public string $dataString;
     private DesInterface $deserializer;
-    public function __construct(string $fileName, DesInterface $deserializer)
+    public string $valute;
+    public function __construct(string $fileName, DesInterface $deserializer, string $valute)
     {
         $this->dataString = $fileName;
         $this->deserializer = $deserializer;
+        $this->valute = $valute;
     }
 
 //    private function getContent(): string
@@ -19,12 +21,8 @@ class Dollar
     public function write(): string
     {
         $result = $this->dataString . ' - ';
-        echo $result;
-        $arrayItem = $this->deserializer->des($this->dataString);
-        foreach ($arrayItem as $item) {
-            $result .= $item->rString();
-        }
-        echo $this->dataString;
+        $arrayItem = $this->deserializer->des($this->dataString, $this->valute);
+        $result .= $arrayItem . "<br>";
         return $result;
     }
 
