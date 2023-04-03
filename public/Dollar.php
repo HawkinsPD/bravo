@@ -2,13 +2,14 @@
 
 class Dollar
 {
-    public string $dataString;
-    private DesInterface $deserializer;
+    public array $dataString;
+    private array $deserializer;
     public string $valute;
-    public function __construct(string $fileName, DesInterface $deserializer, string $valute)
+//    public function __construct(string $fileName, DesInterface $deserializer, string $valute)
+    public function __construct(array $fileNameArr, array $deserializerArr, string $valute)
     {
-        $this->dataString = $fileName;
-        $this->deserializer = $deserializer;
+        $this->dataString = $fileNameArr;
+        $this->deserializer = $deserializerArr;
         $this->valute = $valute;
     }
 
@@ -20,9 +21,12 @@ class Dollar
 
     public function write(): string
     {
-        $result = $this->dataString . ' - ';
-        $arrayItem = $this->deserializer->des($this->dataString, $this->valute);
-        $result .= $arrayItem . "<br>";
+        $result = '';
+        for ($i = 0; $i <= count($this->dataString)-1; $i++) {
+            $result .= $this->dataString[$i] . ' - ';
+            $arrayItem = $this->deserializer[$i]->des($this->dataString[$i], $this->valute);
+            $result .= $arrayItem . "<br>";
+        }
         return $result;
     }
 
