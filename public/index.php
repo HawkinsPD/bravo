@@ -126,7 +126,7 @@ function echoCurrency()
     </script>
 
     <form id="reset-me">
-        <select onload="getValues()" id="select-currency" onchange="echoCurrency(this.value)">
+        <select id="select-currency" onchange="echoCurrency(this.value)">
             <option value="">-</option>
         </select>
         ОБНАРУЖЕНА ХАЛЯВА: <input id="curr-value" type="text" name="Currency">
