@@ -19,9 +19,17 @@ function echoCurrency()
             return $dollar->write();
         }
         elseif (isset($_GET['getArray'])) {
+//            $dataContents = file_get_contents('https://www.cbr-xml-daily.ru/daily_json.js');
+//            $jsonDecoded = json_decode($dataContents, true);
+//            return json_encode(array_keys($jsonDecoded['Valute']));
             $dataContents = file_get_contents('https://www.cbr-xml-daily.ru/daily_json.js');
             $jsonDecoded = json_decode($dataContents, true);
-            return json_encode(array_keys($jsonDecoded['Valute']));
+            $result = [];
+            $keys = array_keys($jsonDecoded['Valute']);
+            for ($i = 0; $i < count($keys); $i++) {
+                $result[$keys[$i]] .= $jsonDecoded['Valute'][$keys[$i]]['Value'];
+            }
+            return json_encode($result);
         }else {
             return <<<HTML
     <script type="text/javascript">
@@ -119,14 +127,18 @@ function echoCurrency()
     {
         fetch('http://localhost:44000?getArray=1',{method: 'get'} )
         .then(data => data.json().then(result => {
-            addElementArray(result);
+            addElementArray(Object.keys(result));
+            vals.push(result);
         }));
     }
     getValues();
+    let vals = [];
+    console.log(vals);
+    
     </script>
 
     <form id="reset-me">
-        <select id="select-currency" onchange="echoCurrency(this.value)">
+        <select id="select-currency" onchange="addElement(vals[0][this.value], getTime(), this.value)"> 
             <option value="">-</option>
         </select>
         ОБНАРУЖЕНА ХАЛЯВА: <input id="curr-value" type="text" name="Currency">
