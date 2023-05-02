@@ -3,11 +3,14 @@ require_once "autoload.php";
 
 function echoCurrency()
 {
-    if (isset($_GET['getUserId'])) {
-        return json_encode($_GET['userId']);
-    }elseif (isset($_GET['getData'])){
-        $imgArr = ['https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png', 'https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png', 'https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png'];
-        return json_encode($imgArr);
+    if (isset($_GET['getData'])){
+        if ($_GET['userId'] === '01') {
+            $imgArr = ['https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png', 'https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png', 'https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png'];
+            return json_encode($imgArr);
+        }elseif ($_GET['userId'] === '02'){
+            $imgArr = ['https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png'];
+            return json_encode($imgArr);
+        }
     }elseif (isset($_GET['userId'])) {
         return <<<HTML
     <script type="text/javascript">
@@ -25,9 +28,16 @@ function echoCurrency()
             }
         }
         
+        function getUserId()
+        {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get('userId');
+        }
+        
         function getImg()
         {
-            fetch('http://localhost:44000?getData=get',{method: 'get'} ) 
+            fetch('http://localhost:44000?getData=get&userId=' + getUserId(),{method: 'get'} ) 
             .then(data => data.json().then(result => {
                 addImg(result);
             }));
