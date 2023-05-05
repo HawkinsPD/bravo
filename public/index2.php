@@ -5,13 +5,19 @@ function echoCurrency()
 {
     if (isset($_GET['getData'])){
         if ($_GET['userId'] === '01') {
-            $imgArr = ['https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png', 'https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png', 'https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png'];
+            $imgArr = ['Taylor_Swift_-_Evermore.png'];
             return json_encode($imgArr);
         }elseif ($_GET['userId'] === '02'){
-            $imgArr = ['https://upload.wikimedia.org/wikipedia/en/e/e8/Taylor_Swift_-_Red.png'];
+            $imgArr = ['Taylor_Swift_-_Red.png'];
             return json_encode($imgArr);
         }
-    }elseif (isset($_GET['userId'])) {
+    }elseif (isset($_GET['saveMe'])){
+        $url = $_GET['saveMe'];
+        $fileName =  basename($url);
+        file_put_contents($fileName, file_get_contents($url));
+        return json_encode($url);
+    }
+    elseif (isset($_GET['userId'])) {
         return <<<HTML
     <script type="text/javascript">
     
@@ -43,9 +49,27 @@ function echoCurrency()
             }));
         }
         getImg();
+        
+        function saveImg()
+        {
+            const url = document.getElementById('url-input').value;
+            fetch('http://localhost:44000?saveMe=' + url,{method: 'get'} ) 
+            .then(data => data.json().then(result => {
+                addImg([result]);
+            }));
+        }
+        
+        function resetForm(id)
+        {
+            document.getElementById(id).reset()
+        }
 
     </script>
-
+    
+    <form id="reset-me">
+        enter url: <input id="url-input" type="text" name="Currency">
+        <input onclick="saveImg(); resetForm('reset-me')" id="btn" type="button" value="ВЗЯТЬ">
+    </form>
 HTML;
     }
 }
