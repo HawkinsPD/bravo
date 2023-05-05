@@ -68,7 +68,7 @@ function echoCurrency()
     
     <form id="reset-me">
         enter url: <input id="url-input" type="text" name="Currency">
-        <input onclick="saveImg(); resetForm('reset-me')" id="btn" type="button" value="ВЗЯТЬ">
+        <input onclick="saveImg(); resetForm('reset-me')" id="btn" type="button" value="save echo">
     </form>
 HTML;
     }
