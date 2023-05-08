@@ -2,5 +2,5 @@
 
 interface RouteInterface
 {
-    public function route();
+    public function route(): string;
 }
