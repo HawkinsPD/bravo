@@ -19,16 +19,19 @@ function echoCurrency()
     }else {
         $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 //        $routes = [
-//            '/' => 'homePage.php',
-//            '/save' => 'saveImg.php',
+//            '/' => 'HomePage.php',
+//            '/save' => 'SaveImg.php',
 //            '/getImages' => ['01','02']
 //        ];
         if ($uri === '/') {
-            require 'homePage.php';
+            $homePage = new HomePage();
+            return $homePage->route();
         }elseif ($uri === '/save') {
-            require 'saveImg.php';
+            $saveImg = new SaveImg();
+            return $saveImg->route();
         }elseif ($uri === '/getImages' && isset($_GET['userId'])){
-            require 'getImg.php';
+            $getImg = new GetImg();
+            return $getImg->route();
         }
 //        elseif (array_key_exists($uri, $routes)) {
 //            require $routes[$uri];
