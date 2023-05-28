@@ -28,7 +28,7 @@ function getUserId()
 }
 function getImg()
 {
-    fetch('http://localhost:44000?getData=get&userId=' + getUserId(),{method: 'get'} )
+    fetch('http://localhost:44000/get-data?userId=' + getUserId(),{method: 'get'} )
         .then(data => data.json().then(result => {
             addImg(result);console.log(result);
         }));
@@ -36,7 +36,7 @@ function getImg()
 function saveImg()
 {
     const url = document.getElementById('url-input').value;
-    fetch('http://localhost:44000?saveMe=' + url,{method: 'get'} )
+    fetch('http://localhost:44000/saveMe?saveMe=' + url,{method: 'get'} )
         .then(data => data.json().then(result => {
         addImg([result]);
     }));
