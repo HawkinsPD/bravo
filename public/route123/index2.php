@@ -1,6 +1,7 @@
 <?php
 require_once "autoload.php";
 
+$pdo = require 'connect.php';
 function echoCurrency()
 {
     $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
@@ -23,5 +24,30 @@ function echoCurrency()
 }
 
 echo echoCurrency();
+
+//$bravo = pg_connect("host=postgres port=5432 dbname=postgres password=root user=root");
+//
+//if ($pdo) {
+//    echo 'bravo';
+//}
+//
+//$employee = $pdo->query("SELECT * FROM employee")->fetchAll();
+//print_r($employee);
+//
+
+$images = "CREATE TABLE IF NOT EXISTS images (
+        id INTEGER PRIMARY KEY,
+        url VARCHAR (2048)
+        )";
+$pdo->exec($images);
+
+
+$url = 'honeymoon';
+$insert = "INSERT INTO images (url) VALUE ($url)";
+
+$stmt = $pdo->prepare($insert);
+$stmt->execute($url);
+
+
 ?>
 
