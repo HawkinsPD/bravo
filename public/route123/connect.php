@@ -1,22 +1,16 @@
 <?php
 
-require_once 'config.php';
-
-function connect(string $host, string $db, string $user, string $password): PDO
+class Connection
 {
-    try {
-        $dsn = "pgsql:host=$host;port=5432;dbname=$db;";
+    function connect(): PDO
+    {
+        $dsn = "pgsql:host=postgres;port=5432;dbname=app;";
 
-        // make a database connection
         return new PDO(
             $dsn,
-            $user,
-            $password,
+            'root',
+            'root',
             [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
         );
-    } catch (PDOException $e) {
-        die($e->getMessage());
     }
 }
-
-return connect($host, $db, $user, $password);

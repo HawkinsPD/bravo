@@ -2,6 +2,7 @@
 require_once "autoload.php";
 
 $pdo = require 'connect.php';
+
 function echoCurrency()
 {
     $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
@@ -36,17 +37,17 @@ echo echoCurrency();
 //
 
 $images = "CREATE TABLE IF NOT EXISTS images (
-        id INTEGER PRIMARY KEY,
+        id SERIAL,
         url VARCHAR (2048)
         )";
 $pdo->exec($images);
 
 
 $url = 'honeymoon';
-$insert = "INSERT INTO images (url) VALUE ($url)";
+$insert = "INSERT INTO images (url) VALUES (?)";
 
 $stmt = $pdo->prepare($insert);
-$stmt->execute($url);
+$stmt->execute([$url]);
 
 
 ?>
