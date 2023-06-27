@@ -1,7 +1,8 @@
 <?php
 require_once "autoload.php";
 
-$pdo = new Connection();
+$con = new Connection();
+$pdo = $con->connect();
 
 function echoCurrency()
 {
