@@ -1,7 +1,8 @@
 <?php
 require_once "autoload.php";
 
-$pdo = require 'connect.php';
+$pdo = require 'Connect.php';
+$pdo = new Connection();
 
 function echoCurrency()
 {
@@ -43,11 +44,11 @@ $images = "CREATE TABLE IF NOT EXISTS images (
 $pdo->exec($images);
 
 
-$url = 'honeymoon';
-$insert = "INSERT INTO images (url) VALUES (?)";
-
-$stmt = $pdo->prepare($insert);
-$stmt->execute([$url]);
+//$url = 'honeymoon';
+//$insert = "INSERT INTO images (url) VALUES (?)";
+//
+//$stmt = $pdo->prepare($insert);
+//$stmt->execute([$url]);
 
 
 ?>
