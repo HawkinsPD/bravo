@@ -119,10 +119,6 @@ function echoCurrency()
         }
     }
     
-    function resetForm(id)
-    {
-        document.getElementById(id).reset()
-    }
     function getValues()
     {
         fetch('http://localhost:44000?getArray=1',{method: 'get'} )

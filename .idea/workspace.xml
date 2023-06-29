@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9a2da00-02e3-4447-a7d2-c0d4b0f15233" name="Changes" comment="ave">
+      <change beforePath="$PROJECT_DIR$/public/DesInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/DeserializerJSonDollar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/DeserializerXMLDollar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Dollar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/HtmlWriter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/Connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/GetData.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/RouteInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/SaveMe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/Taylor_Swift_-_Evermore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/Taylor_Swift_-_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/getImg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/homePage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/index2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route123/saveImg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/whitemustang.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2MppHgDeOfH3kH7nirxiODbk2HY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a2da00-02e3-4447-a7d2-c0d4b0f15233" name="Changes" comment="" />
+      <created>1678474293095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678474293095</updated>
+      <workItem from="1678474294761" duration="4139000" />
+      <workItem from="1678812424740" duration="23576000" />
+      <workItem from="1678985636409" duration="26629000" />
+      <workItem from="1679176817776" duration="973000" />
+      <workItem from="1679250579924" duration="5980000" />
+      <workItem from="1679258388707" duration="35000" />
+      <workItem from="1679258435158" duration="27000" />
+      <workItem from="1679258474409" duration="2566000" />
+      <workItem from="1679261058350" duration="471000" />
+      <workItem from="1679310624129" duration="35000" />
+      <workItem from="1679327265705" duration="2871000" />
+      <workItem from="1679341487157" duration="1606000" />
+      <workItem from="1679516822273" duration="412000" />
+      <workItem from="1679517259525" duration="8630000" />
+      <workItem from="1679574594088" duration="592000" />
+      <workItem from="1683547252695" duration="896000" />
+      <workItem from="1683890408949" duration="858000" />
+      <workItem from="1684089104019" duration="5954000" />
+      <workItem from="1684353768479" duration="3587000" />
+      <workItem from="1684426535737" duration="604000" />
+      <workItem from="1684428290469" duration="3094000" />
+      <workItem from="1685095906169" duration="600000" />
+      <workItem from="1685129992749" duration="22587000" />
+      <workItem from="1686411729464" duration="20170000" />
+      <workItem from="1687727294724" duration="3095000" />
+      <workItem from="1687774982261" duration="24160000" />
+      <workItem from="1687988959445" duration="1842000" />
+      <workItem from="1688071515278" duration="10214000" />
+    </task>
+    <task id="LOCAL-00001" summary="ave">
+      <created>1678994754272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678994754272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ave">
+      <created>1679257701653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679257701653</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ave">
+      <created>1679342068344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679342068344</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ave">
+      <created>1685304175464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685304175464</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ave">
+      <created>1687816262810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687816262810</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ave">
+      <created>1687816350979</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687816350979</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ave">
+      <created>1687861952515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687861952516</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ave">
+      <created>1687865355077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687865355077</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ave">
+      <created>1687871387432</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871387432</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ave">
+      <created>1687899316252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687899316252</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ave" />
+    <option name="LAST_COMMIT_MESSAGE" value="ave" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
