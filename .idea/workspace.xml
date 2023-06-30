@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2da00-02e3-4447-a7d2-c0d4b0f15233" name="Changes" comment="ave">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -89,7 +90,7 @@
       <workItem from="1687727294724" duration="3095000" />
       <workItem from="1687774982261" duration="24160000" />
       <workItem from="1687988959445" duration="1842000" />
-      <workItem from="1688071515278" duration="10816000" />
+      <workItem from="1688071515278" duration="11168000" />
     </task>
     <task id="LOCAL-00001" summary="ave">
       <created>1678994754272</created>
@@ -183,6 +184,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="bravo" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
