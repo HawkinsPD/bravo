@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2da00-02e3-4447-a7d2-c0d4b0f15233" name="Changes" comment="ave">
-      <change beforePath="$PROJECT_DIR$/public/DesInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/DeserializerJSonDollar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/DeserializerXMLDollar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Dollar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/HtmlWriter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Item.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index2.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/Connection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/GetData.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/RouteInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/SaveMe.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/Taylor_Swift_-_Evermore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/Taylor_Swift_-_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/connect.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/getImg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/homePage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/index2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/route123/saveImg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/whitemustang.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +89,7 @@
       <workItem from="1687727294724" duration="3095000" />
       <workItem from="1687774982261" duration="24160000" />
       <workItem from="1687988959445" duration="1842000" />
-      <workItem from="1688071515278" duration="10214000" />
+      <workItem from="1688071515278" duration="10816000" />
     </task>
     <task id="LOCAL-00001" summary="ave">
       <created>1678994754272</created>
@@ -184,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687899316252</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ave">
+      <created>1688082701923</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688082701923</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +179,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -203,6 +193,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="ave" />
     <option name="LAST_COMMIT_MESSAGE" value="ave" />
   </component>
