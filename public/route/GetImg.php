@@ -33,6 +33,8 @@ class GetImg implements RouteInterface
                 getImg();
             </script>
 HTML;
+        }else {
+            echo 'enter userId';
         }
     }
 }

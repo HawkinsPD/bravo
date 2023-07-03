@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2da00-02e3-4447-a7d2-c0d4b0f15233" name="Changes" comment="ave">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdocker/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/phpdocker/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/[legacy]/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/database/ImagesDatabaseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/database/ImagesDatabaseService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/route/GetImg.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/route/GetImg.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c9a2da00-02e3-4447-a7d2-c0d4b0f15233" name="Changes" comment="" />
@@ -90,7 +97,7 @@
       <workItem from="1687727294724" duration="3095000" />
       <workItem from="1687774982261" duration="24160000" />
       <workItem from="1687988959445" duration="1842000" />
-      <workItem from="1688071515278" duration="11168000" />
+      <workItem from="1688071515278" duration="37182000" />
     </task>
     <task id="LOCAL-00001" summary="ave">
       <created>1678994754272</created>
@@ -169,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688082701923</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ave">
+      <created>1688083531466</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688083531466</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
